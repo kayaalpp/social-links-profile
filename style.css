@@ -72,7 +72,6 @@ h6 {
     --grey-700: #333333;
     --grey-800: #1F1F1F;
     --grey-900: #141414;
-    --text-preset-1:
 }
 
 body {
@@ -95,21 +94,27 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 384px;
+    padding: 40px;
+    border-radius: 12px;
 }
 
 img {
     border-radius: 50%;
     width: 88px;
+    margin-bottom: 24px;
 }
 
 .text-1 {
     font-size: 1.5rem;
     font-weight: 700;
+    margin-bottom: 24px;
 }
 
 .text-2 {
     font-size: .875rem;
     font-weight: 400;
+    margin-bottom: 24px;
 }
 
 .text-2-bold {
@@ -119,4 +124,16 @@ img {
 
 .text-green {
     color: var(--green);
+    margin-bottom: 24px;
+}
+
+.social-link {
+    display: block;
+    width: 100%;
+    margin: 8px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--grey-700);
+    border-radius: 8px;
 }
