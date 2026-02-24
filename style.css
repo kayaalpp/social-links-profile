@@ -130,7 +130,7 @@ img {
 .social-link {
     display: block;
     width: 100%;
-    margin: 8px;
+    margin: 8px 0;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -141,7 +141,21 @@ img {
     text-decoration: none;
 }
 
+.social-link:last-child {
+    margin-bottom: 0
+}
+
+.social-link:first-child {
+    margin-top: 0;
+}
+
 .social-link:hover {
     background-color: var(--green);
     color: var(--grey-700);
+}
+
+@media (max-width: 375px) {
+    .card {
+        width: 327px;
+    }
 }
