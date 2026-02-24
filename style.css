@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*:not(dialog) {
+    margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        interpolate-size: allow-keywords;
+    }
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/* =======================
+   DESIGN VARIABLES
+======================= */
+:root {
+    --green: #C4F82A;
+    --white: #FFFFFF;
+    --grey-700: #333333;
+    --grey-800: #1F1F1F;
+    --grey-900: #141414;
+    --text-preset-1:
+}
+
+body {
+    background-color: #141414;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.card {
+    background-color: var(--grey-700);
+}
+
+img {
+    border-radius: 50%;
+}
+
+.text-1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.text-2 {
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+.text-2-bold {
+    font-size: .875rem;
+    font-weight: 700;
+}
