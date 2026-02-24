@@ -136,4 +136,12 @@ img {
     text-decoration: none;
     background-color: var(--grey-700);
     border-radius: 8px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.social-link:hover {
+    background-color: var(--green);
+    color: var(--grey-700);
 }
